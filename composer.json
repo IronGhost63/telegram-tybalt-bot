@@ -1,0 +1,22 @@
+{
+    "name": "ironghost63/tybalt-telegram",
+    "description": "A Guild Wars 2 Bot for Telegram",
+    "type": "project",
+    "require": {
+        "irazasyed/telegram-bot-sdk": "^3.0-dev",
+        "gw2treasures/gw2api": "^3.4"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "IronGhost63",
+            "email": "me@jirayu.in.th"
+        }
+    ],
+    "autoload": {
+        "psr-4": { 
+            "TybaltBot\\": "src/"
+        },
+        "files": ["src/Helper/WvW.php"]
+    }
+}
